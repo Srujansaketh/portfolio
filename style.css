@@ -98,3 +98,54 @@ body {
     background-color: #444;
   }
   
+
+
+  #education {
+  padding-top: 20px;
+}
+
+.education-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+body.dark-mode .education-item {
+  background-color: #1e1e1e;
+  border-color: #555;
+}
+
+
+#certifications {
+  padding-top: 20px;
+}
+
+.cert-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.cert-item a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.cert-item .issuer {
+  font-weight: normal;
+  font-size: 0.95em;
+  color: #666;
+}
+
+body.dark-mode .cert-item {
+  background-color: #1e1e1e;
+  border-color: #555;
+}
+
+body.dark-mode .cert-item .issuer {
+  color: #bbb;
+}
